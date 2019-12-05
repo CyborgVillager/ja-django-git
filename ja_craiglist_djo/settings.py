@@ -54,7 +54,7 @@ ROOT_URLCONF = 'ja_craiglist_djo.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'ja_craiglist_djo/templates')]
+        'DIRS': [os.path.join(BASE_DIR, 'ja_craiglist_djo/../templates')]
         ,
         'APP_DIRS': True,
         'OPTIONS': {
